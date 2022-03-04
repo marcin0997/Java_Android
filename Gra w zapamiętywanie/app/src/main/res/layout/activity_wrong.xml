@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wrong"
+    android:background="@drawable/br">
+
+    <TextView
+        android:id="@+id/correct_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="49dp"
+        android:text="Número correcto:"
+        android:textSize="36dp"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/wrong_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="157dp"
+        android:text="Tu número:"
+        android:textSize="36dp"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_x="395dp"
+        android:layout_y="84dp"
+        android:background="@drawable/start_button"
+        android:onClick="restartApp"
+        android:text="Inténtalo de nuevo"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="452dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/correct_numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="110dp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/wrong_numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="215dp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="178dp"
+        android:text="Felicidades, tienes un gran recuerdo"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+</AbsoluteLayout>
