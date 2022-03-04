@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/kolor3"
+        android:layout_width="186dp"
+        android:layout_height="91dp"
+        android:background="@drawable/cirlce"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="@color/black"
+        android:onClick="kol3"
+        android:text="Button"
+        android:textSize="20sp"
+        app:backgroundTint="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odgadnij_kolor2"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <ImageView
+        android:id="@+id/heart3"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ETAP DRUGI"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <ImageView
+        android:id="@+id/heart2"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/heart1"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/odgadnij_kolor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="CZERWONY"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <Button
+        android:id="@+id/kolor1"
+        android:layout_width="186dp"
+        android:layout_height="91dp"
+        android:background="@drawable/cirlce"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="@color/white"
+        android:onClick="kol1"
+        android:text="Button"
+        android:textSize="20sp"
+        app:backgroundTint="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kolor2"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odgadnij_kolor2"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <Button
+        android:id="@+id/kolor2"
+        android:layout_width="186dp"
+        android:layout_height="91dp"
+        android:background="@drawable/cirlce"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="@color/white"
+        android:onClick="kol2"
+        android:text="Button"
+        android:textSize="20sp"
+        app:backgroundTint="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odgadnij_kolor2"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <TextView
+        android:id="@+id/czasomierzText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:10"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <TextView
+        android:id="@+id/punktyTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Runda na punkty: 0"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kolor3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Kliknij w przycisk zawierający nazwę koloru, którym pokolorowany jest tekst w ramce"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/odgadnij_kolor2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="343dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toTopOf="@+id/czasomierzText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.681"
+        app:srcCompat="@drawable/border" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
